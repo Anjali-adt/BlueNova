@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#020617"/>
+  <path d="M6 24V8L16 5L26 8V24L16 27L6 24Z" stroke="#2563EB" stroke-width="1.5" fill="rgba(37,99,235,0.15)"/>
+  <text x="16" y="19" text-anchor="middle" fill="#60A5FA" font-size="9" font-weight="700" font-family="Poppins,sans-serif">BN</text>
+</svg>

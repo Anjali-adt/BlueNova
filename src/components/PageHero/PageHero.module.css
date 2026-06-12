@@ -1,0 +1,51 @@
+.hero {
+  position: relative;
+  padding: calc(var(--navbar-height) + var(--space-4xl)) 0 var(--space-3xl);
+  overflow: hidden;
+}
+
+.bgEffects {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.gradient {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(37, 99, 235, 0.12) 0%, transparent 60%),
+    linear-gradient(180deg, var(--color-bg-section) 0%, var(--color-bg) 100%);
+}
+
+.content {
+  position: relative;
+  text-align: center;
+}
+
+.label {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.description {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}

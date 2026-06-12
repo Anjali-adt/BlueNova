@@ -1,0 +1,50 @@
+.content {
+  max-width: 800px;
+}
+
+.updated {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2xl);
+}
+
+.content h2 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: var(--space-2xl) 0 var(--space-md);
+}
+
+.content h2:first-of-type {
+  margin-top: 0;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.content ul {
+  list-style: disc;
+  padding-left: var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
+.content li {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+.content a {
+  color: var(--color-accent);
+  transition: color var(--transition-fast);
+}
+
+.content a:hover {
+  color: var(--color-text-primary);
+}

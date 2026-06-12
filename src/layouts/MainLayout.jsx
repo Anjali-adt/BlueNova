@@ -1,0 +1,18 @@
+import { Outlet } from 'react-router-dom';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import styles from './MainLayout.module.css';
+
+const MainLayout = () => {
+  return (
+    <div className={styles.layout}>
+      <Navbar />
+      <main id="main-content" className={styles.main}>
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default MainLayout;
