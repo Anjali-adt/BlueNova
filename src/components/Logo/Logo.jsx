@@ -50,7 +50,7 @@
 // export default Logo;
 import { Link } from 'react-router-dom';
 import styles from './Logo.module.css';
-import logo from '../../assets/icons/bluenova-logo.png';
+import logo from '../../assets/icons/bluenova-logo-1.png';
 
 const Logo = ({ variant = 'default' }) => {
   return (
